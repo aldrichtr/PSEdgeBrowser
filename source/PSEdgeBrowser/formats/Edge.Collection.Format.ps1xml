@@ -1,0 +1,72 @@
+<!--
+Format type data generated 02/01/2024 13:22:28 by CNBNT\TAldrich
+
+This file was created using the New-PSFormatXML command that is part
+of the PSScriptTools module.
+
+https://github.com/jdhitsolutions/PSScriptTools
+-->
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <!--Created 02/01/2024 13:22:28 by CNBNT\TAldrich-->
+      <Name>default</Name>
+      <ViewSelectedBy>
+        <TypeName>Edge.CollectionInfo</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <!--Delete the AutoSize node if you want to use the defined widths.-->
+        <AutoSize />
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+            <Width>39</Width>
+            <Alignment>Left</Alignment>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+            <Width>21</Width>
+            <Alignment>Left</Alignment>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Created</Label>
+            <Width>22</Width>
+            <Alignment>Left</Alignment>
+          </TableColumnHeader>
+          <TableColumnHeader>
+              <Label>Modified</Label>
+              <Width>22</Width>
+              <Alignment>Left</Alignment>
+            </TableColumnHeader>
+            <TableColumnHeader>
+              <Label>Position</Label>
+              <Width>11</Width>
+              <Alignment>Left</Alignment>
+            </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <!-- <PropertyName>Id</PropertyName> -->
+                <ScriptBlock>$_.Id.Substring(0,8)</ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Created</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                  <PropertyName>Modified</PropertyName>
+                </TableColumnItem>
+                <TableColumnItem>
+                  <PropertyName>Position</PropertyName>
+                </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>
