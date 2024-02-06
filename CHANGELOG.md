@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2] - 2024-02-06
+
+### Features
+
+- Read items from the local collections database
+
 ## [0.1] - 2024-02-06
 
 ### Features
@@ -11,6 +17,7 @@ All notable changes to this project will be documented in this file.
 ### Build
 
 - Add gitversion configuration
+- Bump version to 0.1
 
 ### Task
 
